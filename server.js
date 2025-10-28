@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 // Configuración CORS para producción
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://tu-app-en-vercel.vercel.app'] 
+    ? ['frontendiafinanc.vercel.app'] 
     : ['http://localhost:5173', 'http://localhost:3000'],
   credentials: true,
   optionsSuccessStatus: 200
